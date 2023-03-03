@@ -6,6 +6,7 @@ bash <(curl -s https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.
 conda create --name algo python=3.8.8
 
 # Activate conda env
+conda init bash
 conda activate algo
 ```
 
